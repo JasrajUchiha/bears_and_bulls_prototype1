@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create or Join a Game!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="createorjoin.css">
+  </head>
+  <body>
+    <div class="everything">
+      <div class="joinGame">
+        <h1>Create or Join a Game!</h1>
+        <form id="joinform" action="main.html">
+
+        <input type="text" id="username" name="username" placeholder="Enter Your Username" required="required">
+        <br><br>
+        <input type="text" id="room" name="roomcode" placeholder="Enter The Room Code" required="required">
+        <br><br>
+        <button type="button" class="btn btn-primary btn-block btn-large"id="joinbutton">Join or Create a Game</button>
+        <button type="submit" id="join"></button>
+      </form>
+      </div>
+    </div>
+    <script src="createorjoin.js" charset="utf-8"></script>
+  </body>
+</html>

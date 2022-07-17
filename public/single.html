@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="single.css">
+  </head>
+  <body>
+    <h1>The Computer has picked a word! Start guessing by inputting below</h1>
+    <input id ="text" type="text" name="guess" placeholder="Enter your Guess" maxlength="4" required="required">
+    <!-- <div class=""> -->
+    <button type="button" name="button" id="button" class="btn">Make a Guess!</button><br>
+    <button type="button" name="leavebutton" class="btn" onclick="location.href = 'index.html'">Leave Game</button>
+  <!-- </div> -->
+    <div class="tbl-header">
+
+    <table cellpadding="0" cellspacing="0" border="0" class="table">
+      <tr>
+        <td>Word</td>
+        <td>Bears</td>
+        <td>Bulls</td>
+      </tr>
+    </table>
+    </div>
+    <div class="tbl-content">
+      <table cellpadding="0" cellspacing="0" border="0" id="tableofwords">
+        <tr>
+
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="single.js"></script>
+</html>

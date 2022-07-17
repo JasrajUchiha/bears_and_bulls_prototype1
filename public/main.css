@@ -1,0 +1,115 @@
+body{
+  text-align: center;
+}
+
+.sidebar{
+  height: 100%;
+  width: 200px;
+  background-color: none;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  /* background-color: white; /* Black */ */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  /* padding-left: 10px; */
+}
+.main{
+  margin-left: 200px;
+  padding: 0px 10px;
+  padding-top: 20px;
+}
+
+
+table{
+  width:100%;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table{
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+ }
+.tbl-content{
+  height: auto;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+tr{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+input{
+	width: 20%;
+	margin-bottom: 10px;
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+  margin-left: 4px;
+	font-size: 13px;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+#your-word{
+  width: 150px;
+}
+
+.btn{
+  width: 15%;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: solid 2px;
+  border-bottom-color: #202020;
+  background: #f08080;
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 13px;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#picked-word{
+  width: 170px;
+}
+
+.btn:disabled{
+  background: #202020;
+  color: #808080;
+}
